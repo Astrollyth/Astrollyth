@@ -34,11 +34,12 @@
   }
   
 
-  .water {
-    width: 370px;
-    height: 200px;
-    margin-bottom: .2rem;
-  }
+ .water {
+  display: block;
+  max-width: 100%;   /* scale down on small screens */
+  height: auto;      /* keep aspect ratio */
+  margin: 0 auto .2rem auto; /* centers it horizontally */
+}
   .profile-top {
     margin-bottom: 1.5rem;
   }
